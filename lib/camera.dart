@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:math_lab_camera/view.dart';
 
+//Only works for Chrome and Edge
+//Needs to work for: Android, iOS and Windows
+//Android: The app loads on the emulator but crashes during compiling (Flutter Demo Home Page)
+
 class Camera extends StatefulWidget {
   const Camera({Key? key, required this.cameras}) : super(key: key);
 

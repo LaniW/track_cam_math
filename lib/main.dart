@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:math_lab_camera/homepage.dart';
+import 'package:socket_io_client/socket_io_client.dart';
 
 void main() {
   runApp(const MyApp());
